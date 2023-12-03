@@ -1,0 +1,411 @@
+body {
+  font-family: Arial, sans-serif;
+  margin-top: 4vw;
+}
+
+.contain {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.one {
+  max-width: 65vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 1vw;
+}
+
+.bigg {
+  font-size: 61px;
+  margin-bottom: 0;
+  text-align: center;
+}
+
+.spann {
+  font-size: 27px;
+  font-weight: bold;
+}
+
+#oneimgcon {
+  max-width: 50vw;
+}
+
+.oneimg {
+  max-width: 100%;
+  height: auto;
+}
+
+.one div button {
+  padding: 4px 12px 4px 14px;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  border-radius: 5px;
+  font-size: 17px;
+}
+
+.carousel-container {
+  position: relative;
+  display: inline-block;
+  overflow: hidden;
+  max-width: 70vw;
+  margin-bottom: 9vw;
+}
+
+.carousel-image {
+  width: 100%;
+  height: auto;
+  transition: transform 0.5s;
+}
+
+.arrow {
+  position: absolute;
+  top: 50%;
+  font-size: 24px;
+  cursor: pointer;
+  color: white;
+  background-color: rgba(0, 0, 0, 0.5);
+  padding: 10px;
+  display: none;
+  transition: background-color 0.3s;
+}
+
+.arrow:hover {
+  background-color: rgba(0, 0, 0, 0.7);
+}
+
+.arrow.left {
+  left: 0;
+}
+
+.arrow.right {
+  right: 0;
+}
+
+.carousel-container:hover .arrow {
+  display: block;
+}
+
+/* Existing styles as before */
+
+.boxes-container {
+  max-width: 70vw;
+  display: flex;
+  gap: 25px;
+  justify-content: space-between;
+  margin-bottom: 2vw;
+}
+
+.box {
+  max-width: 200px;
+  max-height: 200px;
+  border: 1px solid #ccc;
+  cursor: pointer;
+  position: relative;
+  overflow: hidden;
+  transition: background-color 0.3s;
+  border-radius: 10px;
+}
+
+.box:hover {
+  background-color: #eee;
+}
+
+.box-title {
+  padding: 5px;
+  text-align: center;
+  font-size: larger;
+  font-weight: bold;
+}
+
+.box-text {
+  padding: 5px;
+  transition: transform 0.3s;
+  text-align: center;
+}
+
+.box:hover .box-text {
+  transform: translateY(-50%);
+}
+
+.learn-more {
+  padding: 5px;
+  text-align: center;
+  opacity: 0;
+  transition: opacity 0.3s;
+  text-underline-offset: unset;
+}
+
+.box:hover .learn-more {
+  opacity: 1;
+}
+
+.two {
+  max-width: 65vw;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 2vw;
+}
+
+.two h2 {
+  font-weight: bold;
+  font-size: 45px;
+  margin: 0;
+  text-align: center;
+}
+
+.two p {
+  max-width: 75%;
+  font-size: 20px;
+  text-align: center;
+}
+
+.two a {
+  font-size: 18px;
+}
+
+.three {
+  max-width: 65vw;
+  display: flex;
+  flex-wrap: wrap;
+  gap: 30px;
+  justify-content: center;
+  margin-bottom: 9vw;
+}
+
+.three img {
+  width: 100px;
+  height: 80px;
+  object-fit: contain;
+}
+
+.four h1 {
+  font-weight: bold;
+  font-size: 45px;
+  margin: 0;
+  text-align: center;
+}
+
+.five {
+  max-width: 55vw;
+  text-align: center;
+  margin-bottom: 10vw;
+}
+
+.six {
+  font-size: 28px;
+}
+
+.seven {
+  display: flex;
+  justify-content: center;
+}
+
+.seven img {
+  width: 25%;
+  height: 25%;
+}
+
+.seven p {
+  margin: 0;
+}
+
+.eight {
+  text-align: left;
+}
+
+.ten {
+  background-color: #ccc;
+  padding: 20px;
+  border-radius: 10px;
+}
+
+.ten {
+  max-width: 35vw;
+}
+
+.ten img {
+  width: 100%;
+}
+
+.eleven {
+  max-width: 78vw;
+  display: flex;
+  gap: 2vw;
+  margin-bottom: 5vw;
+}
+
+/* Add your styling here */
+
+
+.thirteen {
+  position: relative;
+  margin-bottom: 3vw;
+}
+
+.uniq {
+  position: absolute;
+  bottom: 97%;
+  right: 55%;
+}
+
+.nine {
+  background-color: #ccc;
+  padding: 20px;
+  border-radius: 10px;
+  max-width: 75vw;
+}
+
+.image-container {
+  text-align: center;
+  margin-top: 30px;
+}
+
+.image-container img {
+  max-width: 100%;
+  max-height: 600px;
+  display: block;
+  margin: 0 auto;
+  border-radius: 20px;
+}
+
+.text-boxes {
+  display: flex;
+  justify-content: center;
+  gap: 1vw;
+  margin-top: 20px;
+}
+
+.text-box {
+  cursor: pointer;
+  padding: 10px;
+  border: 1px solid #a59292;
+  border-radius: 5px;
+  background-color: #e0e0e0;
+  transition: background-color 0.3s ease-in-out;
+}
+
+.text-box.active {
+  background-color: #ffffff;
+}
+
+
+.twelve {
+  max-width: 75vw;
+}
+
+.i-container {
+  text-align: center;
+  margin-bottom: 10vw;
+}
+
+.i-container img {
+  max-width: 100%;
+  display: block;
+  margin: 0 auto;
+}
+
+.t-boxes {
+  display: flex;
+  justify-content: space-around;
+  height: fit-content;
+  margin-bottom: 2vw;
+}
+
+.t-box {
+  cursor: pointer;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  background-color: #f0f0f0;
+  /* Default background color */
+}
+
+.t-box.active {
+  background-color: #ffffff;
+  /* Active background color */
+}
+
+.t-box img {
+  width: 45%;
+}
+
+.t-box span {
+  font-weight: bold;
+}
+
+nav {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  background-color: #ffffff;
+  padding: 7px 14px;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1000;
+}
+
+.logo {
+  height: 40px;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+}
+
+.menu-item {
+  margin-right: 20px;
+  position: relative;
+}
+
+.menu-item::after {
+  content: ' ▼';
+  /* Drop-down arrow */
+  font-size: 0.8em;
+  /* margin-left: 5px; */
+}
+
+.menu-item:hover .dropdown {
+  display: block;
+}
+
+.dropdown {
+  display: none;
+  position: absolute;
+  top: 100%;
+  left: 0;
+  background-color: #ffffff;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+  z-index: 1;
+}
+
+.dropdown-item {
+  padding: 10px;
+  white-space: nowrap;
+}
+
+.action-buttons {
+  display: flex;
+  align-items: center;
+}
+
+.action-button {
+  margin-left: 20px;
+  padding: 10px 20px;
+  background-color: #000000;
+  color: #ffffff;
+  font-weight: bold;
+  text-decoration: none;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}

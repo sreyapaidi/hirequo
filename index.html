@@ -1,0 +1,220 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+</head>
+<body>
+    <nav>
+        <div class="menu">
+          <div>
+            <img style="margin-right: 10px;" src="img/logo.jpg" alt="Logo" class="logo">
+          </div>
+          <div class="menu-item">
+            Product
+            <div class="dropdown">
+              <div class="dropdown-item">Wikis</div>
+              <div class="dropdown-item">Projects</div>
+              <div class="dropdown-item">Docs</div>
+              <div class="dropdown-item">AI</div>
+            </div>
+          </div>
+          <div class="menu-item">
+            Download
+            <div class="dropdown">
+              <div class="dropdown-item">iOS & Android</div>
+              <div class="dropdown-item">Mac & Windows</div>
+              <div class="dropdown-item">Web Clipper</div>
+            </div>
+          </div>
+          <div style="margin-right: 20px;">
+            Solutions
+          </div>
+          <div class="menu-item">
+            Resources
+            <div class="dropdown">
+              <div class="dropdown-item">Blog</div>
+              <div class="dropdown-item">Guides & Tutorials</div>
+              <div class="dropdown-item">Webinars</div>
+              <div class="dropdown-item">Help Center</div>
+              <div class="dropdown-item">API Docs</div>
+              <div class="dropdown-item">Community</div>
+            </div>
+          </div>
+          <div>
+            Pricing
+          </div>
+        </div>
+    
+        <div class="action-buttons">
+          <button class="action-button">Request a Demo</button>
+          <button class="action-button">Login</button>
+          <button class="action-button">Get Notion Free</button>
+        </div>
+      </nav>
+    <div class="contain">
+        <div class="one">
+            <div>
+                <h1 class="bigg">Write, plan, share.<br>With AI at your side.</h1>
+            </div>
+            <div>
+                <span class="spann">Notion is the connected workspace where better, faster work happens.</span>
+            </div>
+            <div>
+                <button style="margin-bottom: 2vw;" type="button">Get Notion free →</button>
+            </div>
+            <div id="oneimgcon">
+                <img class="oneimg" src="img/img1.webp" alt="">
+            </div>
+        </div>
+        <div class="boxes-container">
+            <div class="box" onmouseover="hoverBox(0)" onmouseout="startCarousel()">
+              <p class="box-title">AI</p>
+              <div class="box-content">
+                <p class="box-text">Ask literally anything. Notion will answer</p>
+                <p class="learn-more">Learn More</p>
+              </div>
+            </div>
+            <div class="box" onmouseover="hoverBox(1)" onmouseout="startCarousel()">
+              <p class="box-title">Wikis</p>
+              <div class="box-content">
+                <p class="box-text">Centralize your knowledge. No more hunting for answers</p>
+                <p class="learn-more">Learn More</p>
+              </div>
+            </div>
+            <div class="box" onmouseover="hoverBox(2)" onmouseout="startCarousel()">
+              <p class="box-title">Projects</p>
+              <div class="box-content">
+                <p class="box-text">Manage complex projects without the chaos</p>
+                <p class="learn-more">Learn More</p>
+              </div>
+            </div>
+            <div class="box" onmouseover="hoverBox(3)" onmouseout="startCarousel()">
+              <p class="box-title">Docs</p>
+              <div class="box-content">
+                <p class="box-text">Simple, powerful and beautiful next-gen docs</p>
+                <p class="learn-more">Learn More</p>
+              </div>
+            </div>
+        </div>    
+        <div class="carousel-container" onmouseover="showArrows(true)" onmouseout="showArrows(false)">
+            <span class="arrow left" onclick="changeImage('prev')">&lt;</span>
+            <img id="carouselImage" class="carousel-image" src="img/AI.png" alt="Image Carousel">
+            <span class="arrow right" onclick="changeImage('next')">&gt;</span>
+        </div>
+        <div class="two">
+            <h2>Millions run on Notion every day</h2>
+            <p>Powering the world's best teams, from next-generation startups to established enterprises.</p>
+            <a href="#">Read customer stories→</a>
+        </div>
+        <div class="three">
+            <img src="https://images.ctfassets.net/spoqsaf9291f/502ApiNcRHgIwrDU8XRYTQ/c70d8752079a40241d08ec85dac5f93d/figma-logo.png" alt="">
+            <img src="https://images.ctfassets.net/spoqsaf9291f/6S40IUVrdki2SlPXQMHKKr/e02c776d183f70c84fa53e077a0f7b1a/pixar.png" alt="">
+            <img src="https://images.ctfassets.net/spoqsaf9291f/1jlyWNfa8mnYxJtmzu5lpV/4072e10330206f9057fe77ab19ce1bca/doordash.png" alt="">
+            <img src="https://images.ctfassets.net/spoqsaf9291f/2VtWKmfmToo8n3X7BY0WwA/ccdcd719ee3bc3fa76148eae11d97c51/nike.png" alt="">
+            <img src="https://images.ctfassets.net/spoqsaf9291f/6dIueLe6mDK6HhNObFq2On/a6cd5c6aa443fe0fc69386522acf7b70/amazon.png" alt="">
+            <img src="https://images.ctfassets.net/spoqsaf9291f/6WgTu82608DIXfxu9KliYL/326d36bbde762fd9c1800872db81244c/pinterest.png" alt="">
+            <img src="https://images.ctfassets.net/spoqsaf9291f/LnKYnStAE4vKs51ejLRj2/69cb3e0382538d4c925208ea24f253f5/General_Electric_logo.svg__1_.png" alt="">
+            <img src="https://images.ctfassets.net/spoqsaf9291f/3o80U1VqLr5X1nE4kWlZM5/7d1493bad9ba1bd0adf0cf21b6751dd2/uber.png" alt="">
+            <img src="https://images.ctfassets.net/spoqsaf9291f/2owwRqFrnSdM98Js9Itzih/15cca0ca61fbbaadfeef6b70108ffb42/plaid.png" alt="">
+            <img src="https://images.ctfassets.net/spoqsaf9291f/18DMuU2Os0OAYiJxqU3aE7/3f2d9ce2c5761513c4f34f41cf85b028/Screen_Shot_2022-09-27_at_11.11_3.png" alt="">
+            <img src="https://images.ctfassets.net/spoqsaf9291f/346udUCJm76OzP8M0yI78w/81099c4f771df9286782581fe18d0efc/snowflake.png" alt="">
+            <img src="https://images.ctfassets.net/spoqsaf9291f/xDZNk5XtOxMEiqsiJ6paq/c9958ceead0fb85872449d26186d62b1/headspace__1_.png" alt="">
+            <img src="https://images.ctfassets.net/spoqsaf9291f/4r1tX1hoz2RZigBJYbFbBJ/37e1dc9aa41342497d3e35a31649b2ae/angel-list.png" alt="">
+            <img src="https://images.ctfassets.net/spoqsaf9291f/4AmP2cmuZ2kUwbeSw3ukj9/91ee33f40debced0e8188a0847cb65af/robinhood_logo.png" alt="">
+        </div>
+        <div class="four">
+            <h1 style="margin-bottom: 3vw;">Consolidate tools.<br>Cut costs.</h1>
+        </div>
+        <div class="five">
+            <div class="six" style="margin-bottom: 2vw;">
+                <span>"We got rid of nearly a dozen different tools because of what Notion does for us."</span>
+            </div>
+            <div class="seven">
+                <img src="https://www.notion.so/cdn-cgi/image/format=webp,width=256/front-static/shared/logos/color/metalab.png" alt="">
+                <div class="eight">
+                    <p style="font-weight: bold; margin-top: 5px; margin-bottom: 5px;">Justin Watt</p>
+                    <p style="margin-bottom: 27vw;">Director of Ops & Marketing, MetaLab</p>
+                </div>
+            </div>
+        </div>
+        <div class="four">
+            <h1 style="margin-bottom: 17vw; position: absolute; left: 40%; top: 460%;">Powerful building blocks</h1>
+        </div>
+        
+        <div class="thirteen">
+            <img class="uniq" src="https://www.notion.so/cdn-cgi/image/format=auto,width=640,quality=100/front-static/shared/illustrations/blocks/topPeekI.png" alt="">
+            <div class="nine">
+              <i class="material-icons" style="font-size: 40px; color: blue">shuffle</i>
+              <h2 style="margin-top: 0; margin-bottom: 5px;">Visualize, filter & sort any way you want</h2>
+              <p style="margin-top: 0; margin-bottom: 20px; font-size: large;">Show only tasks assigned to you, or items marked as urgent. Break<br> down any project in the way that’s most helpful to you.</p>
+              <div class="image-container">
+                <img id="dImage" src="img/Board.png" alt="Default Image">
+              </div>
+              <div class="text-boxes">
+                <div class="text-box active" onclick="changeImg('img/Board.png', this)">Board</div>
+                <div class="text-box" onclick="changeImg('img/Table.png', this)">Table</div>
+                <div class="text-box" onclick="changeImg('img/Timeline.png', this)">Timeline</div>
+                <div class="text-box" onclick="changeImg('img/Calendar.png', this)">Calendar</div>
+                <div class="text-box" onclick="changeImg('img/Gallery.png', this)">Gallery</div>
+                <div class="text-box" onclick="changeImg('img/List.webp', this)">List</div>
+              </div>
+            </div>
+        </div>
+        <div class="eleven">
+            <div class="ten">
+                <i class="fa fa-eye" style="font-size:36px;color: blue;"></i>
+                <h2 style="margin-top:0; margin-bottom: 5px;">Customize the info you track</h2>
+                <p style="margin-top:0; margin-bottom: 20px; font-size: large;">Create your own labels, tags, owners, and more, so everyone has context and everything stays organized.</p>
+                <img src="https://www.notion.so/cdn-cgi/image/format=webp,width=2048/front-static/pages/home/build-any-page-communicate-any-idea.png" alt="">
+            </div>
+            <div class="ten">
+                <i class="material-icons" style="font-size:36px; color: blue;">palette</i>
+                <h2 style="margin-top:0; margin-bottom: 5px;">Build any page, communicate any idea</h2>
+                <p style="margin-top:0; margin-bottom: 20px; font-size: large;">Everything is drag and drop in Notion — images, toggles, to-do’s, even embedded databases.</p>
+                <img src="https://www.notion.so/cdn-cgi/image/format=webp,width=2048/front-static/pages/home/build-any-page-communicate-any-idea.png" alt="">
+            </div>
+        </div>
+        <div class="five">
+            <div class="six" style="margin-bottom: 2vw;">
+                <span>"Notion adapts to your needs. It's as minimal or as powerful as you need it to be."</span>
+            </div>
+            <div class="seven">
+                <img style="width: 37px; height: 45px; margin-top: 4px; margin-right: 5px;" src="https://www.notion.so/cdn-cgi/image/format=webp,width=96/front-static/shared/logos/color/match-group.png" alt="">
+                <div class="eight">
+                    <p style="font-weight: bold; margin-top: 5px; margin-bottom: 5px;">Rahim Makani</p>
+                    <p>Director of Product, Matchgroup</p>
+                </div>
+            </div>
+        </div>
+        <div class="four" style="margin-bottom: 3vw;">
+            <h1>Every team, side-by-side</h1>
+        </div>
+        <div class="twelve">
+            <div class="t-boxes">
+              <div class="t-box active" onclick="changeImagee('img/Wikis.png', this)"><img src="img/icons-engineering-v2.png" alt=""><span>Engineering</span></div>
+              <div class="t-box" onclick="changeImagee('img/Design.png', this)"><img src="img/icons-design-v2.png" alt=""><span>Design</span></div>
+              <div class="t-box" onclick="changeImagee('img/Product.png', this)"><img src="img/icons-product.png" alt=""><span>Product</span></div>
+              <div class="t-box" onclick="changeImagee('img/Marketing.png', this)"><img src="img/icons-marketing.png" alt=""><span>Marketing</span></div>
+              <div class="t-box" onclick="changeImagee('img/Operations.png', this)"><img src="img/icons-operations.png" alt=""><span>Operations</span></div>
+              <div class="t-box" onclick="changeImagee('img/HR.png', this)"><img src="img/icons-hr-v2.png" alt=""><span>HR</span></div>
+            </div>
+            <div class="i-container">
+              <img id="displayedImage" src="img/Wikis.png" alt="Default Image">
+            </div>
+        </div>
+        <div class="two">
+            <h2>Join a global movement.<br>Unleash your creativity.</h2>
+            <p>Our vibrant community produces content, teaches courses, and leads events all over the world.<p>
+            <a href="#">Learn more→</a>
+        </div>
+        <img style="max-width: 100vw;" src="https://www.notion.so/cdn-cgi/image/format=webp,width=3840/front-static/pages/home/avatars.png" alt="">
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
